@@ -51,7 +51,7 @@ def view(c):
     }
 
 
-def cases_for_tab(tab):
+def cases_for_tab(tab, band="all"):
     views = [view(c) for c in RAW]
     if tab == "escalated":
         return [v for v in views if v["status"] == "escalated"]
@@ -59,8 +59,10 @@ def cases_for_tab(tab):
         return [v for v in views if v["status"] == "safe"]
     if tab == "uncertain":
         return [v for v in views if v["status"] == "uncertain"]
-    # queue = anything not yet bucketed, ranked by risk (highest first)
+    # queue = anything not yet bucketed, optionally filtered by band, ranked by risk
     items = [v for v in views if v["status"] == "open"]
+    if band in ("high", "review", "low"):
+        items = [v for v in items if v["band"] == band]
     items.sort(key=lambda v: -v["p"])
     return items
 
@@ -68,10 +70,11 @@ def cases_for_tab(tab):
 @app.get("/api/cases")
 def list_cases():
     tab = request.args.get("tab", "queue")
+    band = request.args.get("band", "all")
     page = max(1, int(request.args.get("page", 1)))
     page_size = max(1, int(request.args.get("page_size", 12)))
 
-    items = cases_for_tab(tab)
+    items = cases_for_tab(tab, band)
     total = len(items)
     total_pages = max(1, (total + page_size - 1) // page_size)
     page = min(page, total_pages)
@@ -87,11 +90,18 @@ def list_cases():
 @app.get("/api/stats")
 def stats():
     views = [view(c) for c in RAW]
+    open_views = [v for v in views if v["status"] == "open"]
     return jsonify({
-        "queue": sum(1 for v in views if v["status"] == "open"),
+        "queue": len(open_views),
         "uncertain": sum(1 for v in views if v["status"] == "uncertain"),
         "escalated": sum(1 for v in views if v["status"] == "escalated"),
         "safe": sum(1 for v in views if v["status"] == "safe"),
+        "queue_bands": {
+            "all": len(open_views),
+            "high": sum(1 for v in open_views if v["band"] == "high"),
+            "review": sum(1 for v in open_views if v["band"] == "review"),
+            "low": sum(1 for v in open_views if v["band"] == "low"),
+        },
     })
 
 
