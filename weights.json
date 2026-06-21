@@ -1,0 +1,11 @@
+{
+  "intercept": -2.4333,
+  "weights": {
+    "off_platform": 1.8118,
+    "secrecy": 3.1213,
+    "age_probe": 2.4314,
+    "flattery": 3.1135,
+    "gift": 1.8212
+  },
+  "bands": { "review": 0.30, "high": 0.70 }
+}
