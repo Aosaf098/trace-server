@@ -1,10 +1,19 @@
 """
-Signal detectors — the same patterns the console uses, used here server-side.
-Each detector returns the message indices it fired on, so the evidence and
-line-highlighting the analyst sees is computed in the backend.
+Signal detectors — the single shared source of truth for TRACE.
+
+Used by:
+  - app.py / scoring.py  (serving: which lines fired, for evidence + scoring)
+  - train.py             (training: conversation -> feature vector)
+  - evaluate.py          (evaluation: same features, held-out testing)
+
+Each detector is a regex over message text. `detect` returns the message
+indices each signal fired on; `features` turns a conversation into the binary
+feature vector the model learns from. Same signals everywhere — so the demo,
+the training, and the evaluation all tell one story.
 """
 import re
 
+# The five scored signals. Order is fixed — it defines the feature vector.
 SIGNALS = ["off_platform", "secrecy", "age_probe", "flattery", "gift"]
 
 PATTERNS = {
@@ -25,5 +34,33 @@ PATTERNS = {
         r"cashapp|free skin|i can send you)\b", re.I),
 }
 
+# Context flag — NOT a scored feature. Drives the mandatory-review guardrail
+# (a minor being present doesn't predict grooming; it raises the duty of care).
 MINOR = re.compile(
     r"\b(i'?m 1[0-7]\b|im 1[0-7]\b|in (6th|7th|8th|9th|10th) grade|turning 1[0-7])\b", re.I)
+
+
+def detect(msgs):
+    """Run every detector over a conversation (list of [sender, text]).
+
+    Returns: {'fired': {signal -> [message indices]}, 'minor_present': bool}
+    """
+    fired = {s: [] for s in SIGNALS}
+    minor_present = False
+    for i, (_sender, text) in enumerate(msgs):
+        for s in SIGNALS:
+            if PATTERNS[s].search(text):
+                fired[s].append(i)
+        if MINOR.search(text):
+            minor_present = True
+    return {"fired": fired, "minor_present": minor_present}
+
+
+def features(msgs):
+    """Convert a conversation into the model's feature vector.
+
+    Binary presence of each signal, in SIGNALS order. Interpretable by design:
+    every feature is a named, human-readable risk signal.
+    """
+    d = detect(msgs)
+    return [1 if d["fired"][s] else 0 for s in SIGNALS]
