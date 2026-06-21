@@ -1,20 +1,25 @@
 """
-Server-side scoring. Applies the LEARNED logistic-regression weights
-(from weights.json) to each conversation via a sigmoid, and builds the
-human-readable evidence the analyst reads. Identical math to train.py and
-the console, so all three tell one story.
+scoring.py — server-side scoring on the semantic engine.
+
+Each conversation is embedded once; the per-signal similarities run through the
+learned weights (sigmoid) to a probability and band. Evidence shows which
+signal matched, how strongly, and the closest reference phrase — explainability
+preserved, now meaning-based.
+
+IMPORTANT: weights.json must be trained on SEMANTIC features (run train.py)
+before this is used, or the scores won't match the model.
 """
 import json
 import math
 
-from detectors import SIGNALS, PATTERNS, MINOR
+from semantic_detectors import SIGNALS, analyze, SIM_THRESHOLD
+from detectors import MINOR  # explicit age statements -> guardrail (regex is reliable here)
 
 with open("weights.json") as f:
     MODEL = json.load(f)
 
 BANDS = MODEL.get("bands", {"review": 0.30, "high": 0.70})
 
-# Human-readable labels + notes for each signal (what the analyst sees).
 META = {
     "off_platform": ("Off-platform migration",
                      "Pushing the conversation to a private or harder-to-monitor app."),
@@ -30,29 +35,29 @@ META = {
 
 
 def score_case(case):
-    """Score one conversation. Returns probability, band, evidence, guardrail flags."""
     msgs = case["msgs"]
+    a = analyze(msgs)                      # one embedding pass
     z = MODEL["intercept"]
     evidence = []
-    minor_present = False
 
-    for sig in SIGNALS:
-        lines = [i for i, (_s, text) in enumerate(msgs) if PATTERNS[sig].search(text)]
-        if lines:
-            weight = MODEL["weights"][sig]
-            z += weight
-            label, note = META[sig]
-            evidence.append({"key": sig, "signal": label, "note": note,
-                             "weight": round(weight, 2), "lines": lines})
+    for s in SIGNALS:
+        sim = a[s]["sim"]
+        z += MODEL["weights"][s] * sim     # contribution scales with similarity
+        if sim >= SIM_THRESHOLD:
+            label, note = META[s]
+            evidence.append({
+                "key": s, "signal": label, "note": note,
+                "weight": round(MODEL["weights"][s], 2),
+                "similarity": round(sim, 3),
+                "line": a[s]["line"], "matched": a[s]["matched"],
+            })
 
-    for _s, text in msgs:
-        if MINOR.search(text):
-            minor_present = True
-
+    minor_present = any(MINOR.search(text) for _s, text in msgs)
     p = 1.0 / (1.0 + math.exp(-z))
     pct = round(p * 100)
     band = "high" if p >= BANDS["high"] else "review" if p >= BANDS["review"] else "low"
     dismiss_allowed = band == "low" and not minor_present
+    evidence.sort(key=lambda e: -e["similarity"])
 
     return {"p": p, "pct": pct, "band": band, "evidence": evidence,
             "minor_present": minor_present, "dismiss_allowed": dismiss_allowed}

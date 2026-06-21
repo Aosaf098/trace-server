@@ -14,6 +14,7 @@ Endpoints:
 Run:  python app.py   (serves on http://localhost:8000)
 """
 import json
+import os
 from flask import Flask, jsonify, request
 from flask_cors import CORS
 
@@ -22,8 +23,12 @@ from scoring import score_case
 app = Flask(__name__)
 CORS(app)  # allow the Vite dev server (localhost:5173) to call this API
 
-with open("dataset.json") as f:
+# Serve ONLY the held-out test cases the model never trained on (written by
+# train.py). Falls back to the full dataset if train.py hasn't run yet.
+DATA_FILE = "test_set.json" if os.path.exists("test_set.json") else "dataset.json"
+with open(DATA_FILE) as f:
     RAW = json.load(f)
+print(f"serving {len(RAW)} cases from {DATA_FILE}")
 
 # Pre-score every case once at startup (inference happens here, server-side).
 SCORED = {c["id"]: score_case(c) for c in RAW}

@@ -1,15 +1,15 @@
 {
-  "intercept": -2.2368422308933944,
+  "intercept": -6.6606606411214955,
   "weights": {
-    "off_platform": 2.197079834740272,
-    "secrecy": 2.68767114571877,
-    "age_probe": 2.354671785846269,
-    "flattery": 2.998838115653228,
-    "gift": 1.4724820949778006
+    "off_platform": 2.2415261477051693,
+    "secrecy": 2.795258139680132,
+    "age_probe": 3.2689908422281078,
+    "flattery": 3.4037551120779588,
+    "gift": 2.692140121233005
   },
   "bands": {
-    "review": 0.35,
+    "review": 0.3,
     "high": 0.7
   },
-  "note": "console computes p = sigmoid(intercept + sum(w_i * signal_i)); maps p to band"
+  "note": "weights over SEMANTIC similarity features; score=sigmoid(intercept+sum(w*sim))"
 }

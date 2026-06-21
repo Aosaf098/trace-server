@@ -1,0 +1,3462 @@
+[
+  {
+    "id": "G-0031",
+    "label": 1,
+    "context": "Direct message \u00b7 synthetic",
+    "source": {
+      "label": "Automated scan",
+      "platform": "Roblox"
+    },
+    "msgs": [
+      [
+        "u_x",
+        "hey nice playing with you"
+      ],
+      [
+        "u_y",
+        "hey"
+      ],
+      [
+        "u_x",
+        "so what's your age range?"
+      ],
+      [
+        "u_x",
+        "hmu somewhere else"
+      ],
+      [
+        "u_y",
+        "same honestly"
+      ]
+    ],
+    "meta": {
+      "tactics": [
+        "age_probe",
+        "off_platform"
+      ],
+      "subtle": false
+    }
+  },
+  {
+    "id": "S-0123",
+    "label": 0,
+    "context": "Class group chat \u00b7 synthetic",
+    "source": {
+      "label": "Automated scan",
+      "platform": "Instagram"
+    },
+    "msgs": [
+      [
+        "u_a",
+        "who's coming to the birthday thing saturday"
+      ],
+      [
+        "u_b",
+        "me what time"
+      ],
+      [
+        "u_a",
+        "2pm at the park bring snacks"
+      ]
+    ],
+    "meta": {
+      "kind": "plain"
+    }
+  },
+  {
+    "id": "S-0158",
+    "label": 0,
+    "context": "Sports club chat \u00b7 synthetic",
+    "source": {
+      "label": "Tipline report",
+      "platform": "Fandom forum"
+    },
+    "msgs": [
+      [
+        "u_coach",
+        "great work today, you're improving fast"
+      ],
+      [
+        "u_player",
+        "thanks coach!"
+      ],
+      [
+        "u_coach",
+        "let's keep our extra sessions between us so the others don't feel left out"
+      ],
+      [
+        "u_player",
+        "sounds good"
+      ]
+    ],
+    "meta": {
+      "kind": "borderline"
+    }
+  },
+  {
+    "id": "G-0171",
+    "label": 1,
+    "context": "Direct message \u00b7 synthetic",
+    "source": {
+      "label": "Moderator escalation",
+      "platform": "In-game lobby"
+    },
+    "msgs": [
+      [
+        "u_x",
+        "hey nice playing with you"
+      ],
+      [
+        "u_y",
+        "hey"
+      ],
+      [
+        "u_x",
+        "i can send you a gift card"
+      ],
+      [
+        "u_y",
+        "what are you up to"
+      ],
+      [
+        "u_x",
+        "text me, here's my number"
+      ],
+      [
+        "u_x",
+        "what grade are you in?"
+      ],
+      [
+        "u_y",
+        "ok cool"
+      ],
+      [
+        "u_x",
+        "delete these messages after"
+      ],
+      [
+        "u_x",
+        "honestly you get me like no one else"
+      ]
+    ],
+    "meta": {
+      "tactics": [
+        "gift",
+        "off_platform",
+        "age_probe",
+        "secrecy",
+        "flattery"
+      ],
+      "subtle": false
+    }
+  },
+  {
+    "id": "G-0076",
+    "label": 1,
+    "context": "Direct message \u00b7 synthetic",
+    "source": {
+      "label": "Platform filter",
+      "platform": "Fandom forum"
+    },
+    "msgs": [
+      [
+        "u_x",
+        "hey nice playing with you"
+      ],
+      [
+        "u_y",
+        "hey"
+      ],
+      [
+        "u_x",
+        "i can send you money for it"
+      ],
+      [
+        "u_y",
+        "anyway how's it going"
+      ],
+      [
+        "u_x",
+        "you're so talented for your age"
+      ],
+      [
+        "u_x",
+        "let's keep this between us"
+      ],
+      [
+        "u_y",
+        "ok cool"
+      ],
+      [
+        "u_x",
+        "you still in school?"
+      ],
+      [
+        "u_y",
+        "yeah for real"
+      ]
+    ],
+    "meta": {
+      "tactics": [
+        "gift",
+        "flattery",
+        "secrecy",
+        "age_probe"
+      ],
+      "subtle": false
+    }
+  },
+  {
+    "id": "G-0046",
+    "label": 1,
+    "context": "Direct message \u00b7 synthetic",
+    "source": {
+      "label": "Tipline report",
+      "platform": "Roblox"
+    },
+    "msgs": [
+      [
+        "u_x",
+        "hey nice playing with you"
+      ],
+      [
+        "u_y",
+        "in 7th grade"
+      ],
+      [
+        "u_x",
+        "best if no one else knows"
+      ],
+      [
+        "u_y",
+        "haha ok"
+      ]
+    ],
+    "meta": {
+      "tactics": [
+        "secrecy"
+      ],
+      "subtle": true
+    }
+  },
+  {
+    "id": "S-0085",
+    "label": 0,
+    "context": "Study group chat \u00b7 synthetic",
+    "source": {
+      "label": "Platform filter",
+      "platform": "Discord"
+    },
+    "msgs": [
+      [
+        "u_a",
+        "did anyone finish q7 on the bio worksheet"
+      ],
+      [
+        "u_b",
+        "it's mitochondria, same diagram from class"
+      ],
+      [
+        "u_a",
+        "ohh thanks you saved me"
+      ]
+    ],
+    "meta": {
+      "kind": "plain"
+    }
+  },
+  {
+    "id": "G-0034",
+    "label": 1,
+    "context": "Direct message \u00b7 synthetic",
+    "source": {
+      "label": "User report",
+      "platform": "Instagram"
+    },
+    "msgs": [
+      [
+        "u_x",
+        "hey nice playing with you"
+      ],
+      [
+        "u_y",
+        "i'm 12"
+      ],
+      [
+        "u_x",
+        "how old r u"
+      ],
+      [
+        "u_x",
+        "this can be our thing"
+      ],
+      [
+        "u_y",
+        "anyway how's it going"
+      ],
+      [
+        "u_x",
+        "i feel like we really click"
+      ],
+      [
+        "u_x",
+        "what's your snapchat?"
+      ],
+      [
+        "u_x",
+        "i'll buy you some robux"
+      ]
+    ],
+    "meta": {
+      "tactics": [
+        "age_probe",
+        "secrecy",
+        "flattery",
+        "off_platform",
+        "gift"
+      ],
+      "subtle": false
+    }
+  },
+  {
+    "id": "S-0028",
+    "label": 0,
+    "context": "Art commissions DM \u00b7 synthetic",
+    "source": {
+      "label": "Automated scan",
+      "platform": "Fandom forum"
+    },
+    "msgs": [
+      [
+        "u_a",
+        "do you take commissions"
+      ],
+      [
+        "u_b",
+        "yep i can send a rate sheet"
+      ],
+      [
+        "u_a",
+        "perfect email it over"
+      ]
+    ],
+    "meta": {
+      "kind": "plain"
+    }
+  },
+  {
+    "id": "S-0164",
+    "label": 0,
+    "context": "Class group chat \u00b7 synthetic",
+    "source": {
+      "label": "Moderator escalation",
+      "platform": "Trading server"
+    },
+    "msgs": [
+      [
+        "u_a",
+        "who's coming to the birthday thing saturday"
+      ],
+      [
+        "u_b",
+        "me what time"
+      ],
+      [
+        "u_a",
+        "2pm at the park bring snacks"
+      ]
+    ],
+    "meta": {
+      "kind": "plain"
+    }
+  },
+  {
+    "id": "S-0218",
+    "label": 0,
+    "context": "Event signup DM \u00b7 synthetic",
+    "source": {
+      "label": "User report",
+      "platform": "Snapchat"
+    },
+    "msgs": [
+      [
+        "u_org",
+        "hey can you fill in the sign-up form"
+      ],
+      [
+        "u_member",
+        "sure"
+      ],
+      [
+        "u_org",
+        "how old are you? the form needs your age"
+      ],
+      [
+        "u_member",
+        "17"
+      ]
+    ],
+    "meta": {
+      "kind": "borderline"
+    }
+  },
+  {
+    "id": "S-0177",
+    "label": 0,
+    "context": "Game help channel \u00b7 synthetic",
+    "source": {
+      "label": "Moderator escalation",
+      "platform": "Discord"
+    },
+    "msgs": [
+      [
+        "u_a",
+        "anyone got tips for the water temple boss"
+      ],
+      [
+        "u_b",
+        "use ice arrows on the eyes then hit the core"
+      ],
+      [
+        "u_a",
+        "omg ty stuck for an hour"
+      ],
+      [
+        "u_b",
+        "np gl"
+      ]
+    ],
+    "meta": {
+      "kind": "plain"
+    }
+  },
+  {
+    "id": "S-0020",
+    "label": 0,
+    "context": "Study group chat \u00b7 synthetic",
+    "source": {
+      "label": "Moderator escalation",
+      "platform": "Discord"
+    },
+    "msgs": [
+      [
+        "u_a",
+        "did anyone finish q7 on the bio worksheet"
+      ],
+      [
+        "u_b",
+        "it's mitochondria, same diagram from class"
+      ],
+      [
+        "u_a",
+        "ohh thanks you saved me"
+      ]
+    ],
+    "meta": {
+      "kind": "plain"
+    }
+  },
+  {
+    "id": "G-0008",
+    "label": 1,
+    "context": "Direct message \u00b7 synthetic",
+    "source": {
+      "label": "User report",
+      "platform": "Instagram"
+    },
+    "msgs": [
+      [
+        "u_x",
+        "hey nice playing with you"
+      ],
+      [
+        "u_y",
+        "in 7th grade"
+      ],
+      [
+        "u_x",
+        "we should talk somewhere more private"
+      ],
+      [
+        "u_y",
+        "lol nice"
+      ]
+    ],
+    "meta": {
+      "tactics": [
+        "off_platform"
+      ],
+      "subtle": true
+    }
+  },
+  {
+    "id": "S-0134",
+    "label": 0,
+    "context": "Trading channel \u00b7 synthetic",
+    "source": {
+      "label": "User report",
+      "platform": "Snapchat"
+    },
+    "msgs": [
+      [
+        "u_a",
+        "trading a blue dragon anyone interested"
+      ],
+      [
+        "u_a",
+        "i can send you the notes"
+      ],
+      [
+        "u_b",
+        "i'll give you two epics"
+      ],
+      [
+        "u_a",
+        "deal sending now"
+      ],
+      [
+        "u_b",
+        "ty pleasure"
+      ]
+    ],
+    "meta": {
+      "kind": "plain"
+    }
+  },
+  {
+    "id": "G-0070",
+    "label": 1,
+    "context": "Direct message \u00b7 synthetic",
+    "source": {
+      "label": "Platform filter",
+      "platform": "In-game lobby"
+    },
+    "msgs": [
+      [
+        "u_x",
+        "hey nice playing with you"
+      ],
+      [
+        "u_y",
+        "hey"
+      ],
+      [
+        "u_x",
+        "let's keep this between us"
+      ],
+      [
+        "u_y",
+        "lol nice"
+      ],
+      [
+        "u_x",
+        "what's your snapchat?"
+      ],
+      [
+        "u_x",
+        "you're not like other people your age"
+      ]
+    ],
+    "meta": {
+      "tactics": [
+        "secrecy",
+        "off_platform",
+        "flattery"
+      ],
+      "subtle": false
+    }
+  },
+  {
+    "id": "S-0214",
+    "label": 0,
+    "context": "Mentor DM \u00b7 synthetic",
+    "source": {
+      "label": "Automated scan",
+      "platform": "Snapchat"
+    },
+    "msgs": [
+      [
+        "u_mentor",
+        "you can talk to me about anything on the project, ok?"
+      ],
+      [
+        "u_student",
+        "appreciate it, thanks"
+      ]
+    ],
+    "meta": {
+      "kind": "borderline"
+    }
+  },
+  {
+    "id": "S-0019",
+    "label": 0,
+    "context": "Event signup DM \u00b7 synthetic",
+    "source": {
+      "label": "Tipline report",
+      "platform": "Trading server"
+    },
+    "msgs": [
+      [
+        "u_org",
+        "hey can you fill in the sign-up form"
+      ],
+      [
+        "u_member",
+        "sure"
+      ],
+      [
+        "u_org",
+        "how old are you? the form needs your age"
+      ],
+      [
+        "u_member",
+        "17"
+      ]
+    ],
+    "meta": {
+      "kind": "borderline"
+    }
+  },
+  {
+    "id": "S-0174",
+    "label": 0,
+    "context": "Friends DM \u00b7 synthetic",
+    "source": {
+      "label": "Platform filter",
+      "platform": "Instagram"
+    },
+    "msgs": [
+      [
+        "u_a",
+        "this group chat is chaos lol"
+      ],
+      [
+        "u_b",
+        "fr add me on discord instead"
+      ],
+      [
+        "u_a",
+        "done"
+      ]
+    ],
+    "meta": {
+      "kind": "borderline"
+    }
+  },
+  {
+    "id": "G-0032",
+    "label": 1,
+    "context": "Direct message \u00b7 synthetic",
+    "source": {
+      "label": "User report",
+      "platform": "Roblox"
+    },
+    "msgs": [
+      [
+        "u_x",
+        "hey nice playing with you"
+      ],
+      [
+        "u_y",
+        "i'm 12"
+      ],
+      [
+        "u_x",
+        "text me, here's my number"
+      ],
+      [
+        "u_x",
+        "how old are you?"
+      ],
+      [
+        "u_y",
+        "lol nice"
+      ]
+    ],
+    "meta": {
+      "tactics": [
+        "off_platform",
+        "age_probe"
+      ],
+      "subtle": false
+    }
+  },
+  {
+    "id": "S-0078",
+    "label": 0,
+    "context": "Family group chat \u00b7 synthetic",
+    "source": {
+      "label": "Moderator escalation",
+      "platform": "Trading server"
+    },
+    "msgs": [
+      [
+        "u_aunt",
+        "you're so mature for your age, your mum must be proud"
+      ],
+      [
+        "u_teen",
+        "haha thanks auntie"
+      ]
+    ],
+    "meta": {
+      "kind": "borderline"
+    }
+  },
+  {
+    "id": "G-0110",
+    "label": 1,
+    "context": "Direct message \u00b7 synthetic",
+    "source": {
+      "label": "Moderator escalation",
+      "platform": "Trading server"
+    },
+    "msgs": [
+      [
+        "u_x",
+        "hey nice playing with you"
+      ],
+      [
+        "u_y",
+        "turning 14 soon"
+      ],
+      [
+        "u_x",
+        "what grade are you in?"
+      ],
+      [
+        "u_y",
+        "gg that was close"
+      ],
+      [
+        "u_x",
+        "dm me on insta"
+      ],
+      [
+        "u_y",
+        "anyway how's it going"
+      ]
+    ],
+    "meta": {
+      "tactics": [
+        "age_probe",
+        "off_platform"
+      ],
+      "subtle": false
+    }
+  },
+  {
+    "id": "G-0045",
+    "label": 1,
+    "context": "Direct message \u00b7 synthetic",
+    "source": {
+      "label": "Tipline report",
+      "platform": "In-game lobby"
+    },
+    "msgs": [
+      [
+        "u_x",
+        "hey nice playing with you"
+      ],
+      [
+        "u_y",
+        "hey"
+      ],
+      [
+        "u_x",
+        "let's keep this between us"
+      ],
+      [
+        "u_y",
+        "haha ok"
+      ],
+      [
+        "u_x",
+        "i could hook you up no biggie"
+      ],
+      [
+        "u_x",
+        "you're so talented for your age"
+      ],
+      [
+        "u_x",
+        "how old are you?"
+      ]
+    ],
+    "meta": {
+      "tactics": [
+        "secrecy",
+        "gift",
+        "flattery",
+        "age_probe"
+      ],
+      "subtle": false
+    }
+  },
+  {
+    "id": "S-0185",
+    "label": 0,
+    "context": "Friends DM \u00b7 synthetic",
+    "source": {
+      "label": "Automated scan",
+      "platform": "In-game lobby"
+    },
+    "msgs": [
+      [
+        "u_a",
+        "this group chat is chaos lol"
+      ],
+      [
+        "u_b",
+        "fr add me on discord instead"
+      ],
+      [
+        "u_a",
+        "done"
+      ]
+    ],
+    "meta": {
+      "kind": "borderline"
+    }
+  },
+  {
+    "id": "S-0213",
+    "label": 0,
+    "context": "Event signup DM \u00b7 synthetic",
+    "source": {
+      "label": "Platform filter",
+      "platform": "Discord"
+    },
+    "msgs": [
+      [
+        "u_org",
+        "hey can you fill in the sign-up form"
+      ],
+      [
+        "u_member",
+        "sure"
+      ],
+      [
+        "u_org",
+        "how old are you? the form needs your age"
+      ],
+      [
+        "u_member",
+        "17"
+      ]
+    ],
+    "meta": {
+      "kind": "borderline"
+    }
+  },
+  {
+    "id": "S-0195",
+    "label": 0,
+    "context": "Friends DM \u00b7 synthetic",
+    "source": {
+      "label": "Platform filter",
+      "platform": "In-game lobby"
+    },
+    "msgs": [
+      [
+        "u_a",
+        "you watching the new episode tonight"
+      ],
+      [
+        "u_a",
+        "i can send you the notes"
+      ],
+      [
+        "u_b",
+        "yeah after dinner no spoilers"
+      ],
+      [
+        "u_a",
+        "lol ok i'll wait for you"
+      ]
+    ],
+    "meta": {
+      "kind": "plain"
+    }
+  },
+  {
+    "id": "S-0146",
+    "label": 0,
+    "context": "Game help channel \u00b7 synthetic",
+    "source": {
+      "label": "Automated scan",
+      "platform": "Fandom forum"
+    },
+    "msgs": [
+      [
+        "u_a",
+        "anyone got tips for the water temple boss"
+      ],
+      [
+        "u_b",
+        "use ice arrows on the eyes then hit the core"
+      ],
+      [
+        "u_a",
+        "omg ty stuck for an hour"
+      ],
+      [
+        "u_b",
+        "np gl"
+      ]
+    ],
+    "meta": {
+      "kind": "plain"
+    }
+  },
+  {
+    "id": "G-0146",
+    "label": 1,
+    "context": "Direct message \u00b7 synthetic",
+    "source": {
+      "label": "Automated scan",
+      "platform": "Instagram"
+    },
+    "msgs": [
+      [
+        "u_x",
+        "hey nice playing with you"
+      ],
+      [
+        "u_y",
+        "im 14"
+      ],
+      [
+        "u_x",
+        "let's keep this between us"
+      ],
+      [
+        "u_y",
+        "nice one"
+      ],
+      [
+        "u_x",
+        "what grade are you in?"
+      ]
+    ],
+    "meta": {
+      "tactics": [
+        "secrecy",
+        "age_probe"
+      ],
+      "subtle": false
+    }
+  },
+  {
+    "id": "G-0093",
+    "label": 1,
+    "context": "Direct message \u00b7 synthetic",
+    "source": {
+      "label": "Tipline report",
+      "platform": "Trading server"
+    },
+    "msgs": [
+      [
+        "u_x",
+        "hey nice playing with you"
+      ],
+      [
+        "u_y",
+        "im 13"
+      ],
+      [
+        "u_x",
+        "what grade are you in?"
+      ],
+      [
+        "u_y",
+        "that's wild"
+      ],
+      [
+        "u_x",
+        "i'll buy you some robux"
+      ],
+      [
+        "u_x",
+        "let's move this to whatsapp"
+      ],
+      [
+        "u_y",
+        "anyway how's it going"
+      ]
+    ],
+    "meta": {
+      "tactics": [
+        "age_probe",
+        "gift",
+        "off_platform"
+      ],
+      "subtle": false
+    }
+  },
+  {
+    "id": "G-0123",
+    "label": 1,
+    "context": "Direct message \u00b7 synthetic",
+    "source": {
+      "label": "User report",
+      "platform": "Snapchat"
+    },
+    "msgs": [
+      [
+        "u_x",
+        "hey nice playing with you"
+      ],
+      [
+        "u_y",
+        "im 14"
+      ],
+      [
+        "u_x",
+        "what's your snapchat?"
+      ],
+      [
+        "u_y",
+        "yeah for real"
+      ],
+      [
+        "u_x",
+        "how old r u"
+      ],
+      [
+        "u_x",
+        "i can send you a gift card"
+      ]
+    ],
+    "meta": {
+      "tactics": [
+        "off_platform",
+        "age_probe",
+        "gift"
+      ],
+      "subtle": false
+    }
+  },
+  {
+    "id": "G-0164",
+    "label": 1,
+    "context": "Direct message \u00b7 synthetic",
+    "source": {
+      "label": "Automated scan",
+      "platform": "Trading server"
+    },
+    "msgs": [
+      [
+        "u_x",
+        "hey nice playing with you"
+      ],
+      [
+        "u_y",
+        "hey"
+      ],
+      [
+        "u_x",
+        "you're special, you know that?"
+      ],
+      [
+        "u_y",
+        "same honestly"
+      ]
+    ],
+    "meta": {
+      "tactics": [
+        "flattery"
+      ],
+      "subtle": true
+    }
+  },
+  {
+    "id": "S-0013",
+    "label": 0,
+    "context": "Friends DM \u00b7 synthetic",
+    "source": {
+      "label": "User report",
+      "platform": "Roblox"
+    },
+    "msgs": [
+      [
+        "u_a",
+        "this group chat is chaos lol"
+      ],
+      [
+        "u_b",
+        "fr add me on discord instead"
+      ],
+      [
+        "u_a",
+        "done"
+      ]
+    ],
+    "meta": {
+      "kind": "borderline"
+    }
+  },
+  {
+    "id": "S-0171",
+    "label": 0,
+    "context": "Event signup DM \u00b7 synthetic",
+    "source": {
+      "label": "Platform filter",
+      "platform": "Discord"
+    },
+    "msgs": [
+      [
+        "u_org",
+        "hey can you fill in the sign-up form"
+      ],
+      [
+        "u_member",
+        "sure"
+      ],
+      [
+        "u_org",
+        "how old are you? the form needs your age"
+      ],
+      [
+        "u_member",
+        "17"
+      ]
+    ],
+    "meta": {
+      "kind": "borderline"
+    }
+  },
+  {
+    "id": "S-0144",
+    "label": 0,
+    "context": "Study group chat \u00b7 synthetic",
+    "source": {
+      "label": "Tipline report",
+      "platform": "Trading server"
+    },
+    "msgs": [
+      [
+        "u_a",
+        "did anyone finish q7 on the bio worksheet"
+      ],
+      [
+        "u_b",
+        "it's mitochondria, same diagram from class"
+      ],
+      [
+        "u_a",
+        "ohh thanks you saved me"
+      ]
+    ],
+    "meta": {
+      "kind": "plain"
+    }
+  },
+  {
+    "id": "G-0151",
+    "label": 1,
+    "context": "Direct message \u00b7 synthetic",
+    "source": {
+      "label": "Platform filter",
+      "platform": "Discord"
+    },
+    "msgs": [
+      [
+        "u_x",
+        "hey nice playing with you"
+      ],
+      [
+        "u_y",
+        "hey"
+      ],
+      [
+        "u_x",
+        "this can be our thing"
+      ]
+    ],
+    "meta": {
+      "tactics": [
+        "secrecy"
+      ],
+      "subtle": true
+    }
+  },
+  {
+    "id": "S-0080",
+    "label": 0,
+    "context": "Friends DM \u00b7 synthetic",
+    "source": {
+      "label": "Moderator escalation",
+      "platform": "Fandom forum"
+    },
+    "msgs": [
+      [
+        "u_a",
+        "this group chat is chaos lol"
+      ],
+      [
+        "u_b",
+        "fr add me on discord instead"
+      ],
+      [
+        "u_a",
+        "done"
+      ]
+    ],
+    "meta": {
+      "kind": "borderline"
+    }
+  },
+  {
+    "id": "S-0058",
+    "label": 0,
+    "context": "Game help channel \u00b7 synthetic",
+    "source": {
+      "label": "User report",
+      "platform": "Snapchat"
+    },
+    "msgs": [
+      [
+        "u_a",
+        "anyone got tips for the water temple boss"
+      ],
+      [
+        "u_b",
+        "use ice arrows on the eyes then hit the core"
+      ],
+      [
+        "u_a",
+        "omg ty stuck for an hour"
+      ],
+      [
+        "u_b",
+        "np gl"
+      ],
+      [
+        "u_a",
+        "what grade are you in for the school league"
+      ]
+    ],
+    "meta": {
+      "kind": "plain"
+    }
+  },
+  {
+    "id": "G-0108",
+    "label": 1,
+    "context": "Direct message \u00b7 synthetic",
+    "source": {
+      "label": "Platform filter",
+      "platform": "Snapchat"
+    },
+    "msgs": [
+      [
+        "u_x",
+        "hey nice playing with you"
+      ],
+      [
+        "u_y",
+        "im 14"
+      ],
+      [
+        "u_x",
+        "i could help you out with that, no strings"
+      ],
+      [
+        "u_y",
+        "yeah for real"
+      ]
+    ],
+    "meta": {
+      "tactics": [
+        "gift"
+      ],
+      "subtle": true
+    }
+  },
+  {
+    "id": "S-0076",
+    "label": 0,
+    "context": "Game help channel \u00b7 synthetic",
+    "source": {
+      "label": "Moderator escalation",
+      "platform": "Instagram"
+    },
+    "msgs": [
+      [
+        "u_a",
+        "anyone got tips for the water temple boss"
+      ],
+      [
+        "u_b",
+        "use ice arrows on the eyes then hit the core"
+      ],
+      [
+        "u_a",
+        "omg ty stuck for an hour"
+      ],
+      [
+        "u_b",
+        "np gl"
+      ]
+    ],
+    "meta": {
+      "kind": "plain"
+    }
+  },
+  {
+    "id": "G-0141",
+    "label": 1,
+    "context": "Direct message \u00b7 synthetic",
+    "source": {
+      "label": "Tipline report",
+      "platform": "Fandom forum"
+    },
+    "msgs": [
+      [
+        "u_x",
+        "hey nice playing with you"
+      ],
+      [
+        "u_y",
+        "hey"
+      ],
+      [
+        "u_x",
+        "delete these messages after"
+      ],
+      [
+        "u_y",
+        "ok cool"
+      ],
+      [
+        "u_x",
+        "i can send you money for it"
+      ],
+      [
+        "u_y",
+        "yeah for real"
+      ],
+      [
+        "u_x",
+        "how old r u"
+      ],
+      [
+        "u_x",
+        "is there somewhere quieter we can chat?"
+      ],
+      [
+        "u_y",
+        "nice one"
+      ],
+      [
+        "u_x",
+        "you can tell me anything"
+      ]
+    ],
+    "meta": {
+      "tactics": [
+        "secrecy",
+        "gift",
+        "age_probe",
+        "off_platform",
+        "flattery"
+      ],
+      "subtle": false
+    }
+  },
+  {
+    "id": "S-0149",
+    "label": 0,
+    "context": "Art commissions DM \u00b7 synthetic",
+    "source": {
+      "label": "User report",
+      "platform": "Discord"
+    },
+    "msgs": [
+      [
+        "u_a",
+        "do you take commissions"
+      ],
+      [
+        "u_b",
+        "yep i can send a rate sheet"
+      ],
+      [
+        "u_a",
+        "i can send you the notes"
+      ],
+      [
+        "u_a",
+        "perfect email it over"
+      ]
+    ],
+    "meta": {
+      "kind": "plain"
+    }
+  },
+  {
+    "id": "S-0005",
+    "label": 0,
+    "context": "Friends DM \u00b7 synthetic",
+    "source": {
+      "label": "Automated scan",
+      "platform": "Instagram"
+    },
+    "msgs": [
+      [
+        "u_a",
+        "you watching the new episode tonight"
+      ],
+      [
+        "u_b",
+        "yeah after dinner no spoilers"
+      ],
+      [
+        "u_a",
+        "lol ok i'll wait for you"
+      ]
+    ],
+    "meta": {
+      "kind": "plain"
+    }
+  },
+  {
+    "id": "G-0088",
+    "label": 1,
+    "context": "Direct message \u00b7 synthetic",
+    "source": {
+      "label": "User report",
+      "platform": "Snapchat"
+    },
+    "msgs": [
+      [
+        "u_x",
+        "hey nice playing with you"
+      ],
+      [
+        "u_y",
+        "in 7th grade"
+      ],
+      [
+        "u_x",
+        "what's your snapchat?"
+      ],
+      [
+        "u_y",
+        "anyway how's it going"
+      ],
+      [
+        "u_x",
+        "let's keep this between us"
+      ],
+      [
+        "u_y",
+        "gg that was close"
+      ],
+      [
+        "u_x",
+        "you're so talented for your age"
+      ],
+      [
+        "u_x",
+        "i could hook you up no biggie"
+      ],
+      [
+        "u_y",
+        "yeah for real"
+      ]
+    ],
+    "meta": {
+      "tactics": [
+        "off_platform",
+        "secrecy",
+        "flattery",
+        "gift"
+      ],
+      "subtle": false
+    }
+  },
+  {
+    "id": "G-0149",
+    "label": 1,
+    "context": "Direct message \u00b7 synthetic",
+    "source": {
+      "label": "User report",
+      "platform": "Roblox"
+    },
+    "msgs": [
+      [
+        "u_x",
+        "hey nice playing with you"
+      ],
+      [
+        "u_y",
+        "turning 14 soon"
+      ],
+      [
+        "u_x",
+        "i can sort you out if you want"
+      ],
+      [
+        "u_x",
+        "how old are you?"
+      ],
+      [
+        "u_y",
+        "nice one"
+      ],
+      [
+        "u_x",
+        "maybe don't bring this up to your folks"
+      ],
+      [
+        "u_y",
+        "gg that was close"
+      ],
+      [
+        "u_x",
+        "hmu somewhere else"
+      ],
+      [
+        "u_x",
+        "you're so mature for your age"
+      ]
+    ],
+    "meta": {
+      "tactics": [
+        "gift",
+        "age_probe",
+        "secrecy",
+        "off_platform",
+        "flattery"
+      ],
+      "subtle": false
+    }
+  },
+  {
+    "id": "G-0014",
+    "label": 1,
+    "context": "Direct message \u00b7 synthetic",
+    "source": {
+      "label": "Moderator escalation",
+      "platform": "Trading server"
+    },
+    "msgs": [
+      [
+        "u_x",
+        "hey nice playing with you"
+      ],
+      [
+        "u_y",
+        "turning 14 soon"
+      ],
+      [
+        "u_x",
+        "people wouldn't understand our friendship"
+      ],
+      [
+        "u_x",
+        "add me on telegram"
+      ]
+    ],
+    "meta": {
+      "tactics": [
+        "secrecy",
+        "off_platform"
+      ],
+      "subtle": false
+    }
+  },
+  {
+    "id": "S-0038",
+    "label": 0,
+    "context": "Trading channel \u00b7 synthetic",
+    "source": {
+      "label": "User report",
+      "platform": "Fandom forum"
+    },
+    "msgs": [
+      [
+        "u_a",
+        "trading a blue dragon anyone interested"
+      ],
+      [
+        "u_b",
+        "i'll give you two epics"
+      ],
+      [
+        "u_a",
+        "deal sending now"
+      ],
+      [
+        "u_b",
+        "ty pleasure"
+      ]
+    ],
+    "meta": {
+      "kind": "plain"
+    }
+  },
+  {
+    "id": "G-0020",
+    "label": 1,
+    "context": "Direct message \u00b7 synthetic",
+    "source": {
+      "label": "User report",
+      "platform": "Instagram"
+    },
+    "msgs": [
+      [
+        "u_x",
+        "hey nice playing with you"
+      ],
+      [
+        "u_y",
+        "hey"
+      ],
+      [
+        "u_x",
+        "you're special, you know that?"
+      ]
+    ],
+    "meta": {
+      "tactics": [
+        "flattery"
+      ],
+      "subtle": true
+    }
+  },
+  {
+    "id": "G-0061",
+    "label": 1,
+    "context": "Direct message \u00b7 synthetic",
+    "source": {
+      "label": "Tipline report",
+      "platform": "Roblox"
+    },
+    "msgs": [
+      [
+        "u_x",
+        "hey nice playing with you"
+      ],
+      [
+        "u_y",
+        "im 14"
+      ],
+      [
+        "u_x",
+        "people wouldn't understand our friendship"
+      ],
+      [
+        "u_x",
+        "how old are you?"
+      ],
+      [
+        "u_y",
+        "nice one"
+      ],
+      [
+        "u_x",
+        "i can send you a gift card"
+      ],
+      [
+        "u_y",
+        "nice one"
+      ],
+      [
+        "u_x",
+        "what's your snapchat?"
+      ],
+      [
+        "u_x",
+        "you can tell me anything"
+      ]
+    ],
+    "meta": {
+      "tactics": [
+        "secrecy",
+        "age_probe",
+        "gift",
+        "off_platform",
+        "flattery"
+      ],
+      "subtle": false
+    }
+  },
+  {
+    "id": "S-0163",
+    "label": 0,
+    "context": "Event signup DM \u00b7 synthetic",
+    "source": {
+      "label": "Tipline report",
+      "platform": "Instagram"
+    },
+    "msgs": [
+      [
+        "u_org",
+        "hey can you fill in the sign-up form"
+      ],
+      [
+        "u_member",
+        "sure"
+      ],
+      [
+        "u_org",
+        "how old are you? the form needs your age"
+      ],
+      [
+        "u_member",
+        "17"
+      ]
+    ],
+    "meta": {
+      "kind": "borderline"
+    }
+  },
+  {
+    "id": "S-0115",
+    "label": 0,
+    "context": "Friends DM \u00b7 synthetic",
+    "source": {
+      "label": "Platform filter",
+      "platform": "In-game lobby"
+    },
+    "msgs": [
+      [
+        "u_a",
+        "you watching the new episode tonight"
+      ],
+      [
+        "u_b",
+        "yeah after dinner no spoilers"
+      ],
+      [
+        "u_a",
+        "lol ok i'll wait for you"
+      ]
+    ],
+    "meta": {
+      "kind": "plain"
+    }
+  },
+  {
+    "id": "G-0148",
+    "label": 1,
+    "context": "Direct message \u00b7 synthetic",
+    "source": {
+      "label": "Platform filter",
+      "platform": "Trading server"
+    },
+    "msgs": [
+      [
+        "u_x",
+        "hey nice playing with you"
+      ],
+      [
+        "u_y",
+        "turning 14 soon"
+      ],
+      [
+        "u_x",
+        "i could help you out with that, no strings"
+      ]
+    ],
+    "meta": {
+      "tactics": [
+        "gift"
+      ],
+      "subtle": true
+    }
+  },
+  {
+    "id": "S-0052",
+    "label": 0,
+    "context": "Sports club chat \u00b7 synthetic",
+    "source": {
+      "label": "Moderator escalation",
+      "platform": "Trading server"
+    },
+    "msgs": [
+      [
+        "u_coach",
+        "great work today, you're improving fast"
+      ],
+      [
+        "u_player",
+        "thanks coach!"
+      ],
+      [
+        "u_coach",
+        "let's keep our extra sessions between us so the others don't feel left out"
+      ],
+      [
+        "u_player",
+        "sounds good"
+      ]
+    ],
+    "meta": {
+      "kind": "borderline"
+    }
+  },
+  {
+    "id": "S-0103",
+    "label": 0,
+    "context": "Sports club chat \u00b7 synthetic",
+    "source": {
+      "label": "Tipline report",
+      "platform": "Snapchat"
+    },
+    "msgs": [
+      [
+        "u_coach",
+        "great work today, you're improving fast"
+      ],
+      [
+        "u_player",
+        "thanks coach!"
+      ],
+      [
+        "u_coach",
+        "let's keep our extra sessions between us so the others don't feel left out"
+      ],
+      [
+        "u_player",
+        "sounds good"
+      ]
+    ],
+    "meta": {
+      "kind": "borderline"
+    }
+  },
+  {
+    "id": "S-0041",
+    "label": 0,
+    "context": "Game help channel \u00b7 synthetic",
+    "source": {
+      "label": "Automated scan",
+      "platform": "Instagram"
+    },
+    "msgs": [
+      [
+        "u_a",
+        "anyone got tips for the water temple boss"
+      ],
+      [
+        "u_b",
+        "use ice arrows on the eyes then hit the core"
+      ],
+      [
+        "u_a",
+        "omg ty stuck for an hour"
+      ],
+      [
+        "u_b",
+        "np gl"
+      ]
+    ],
+    "meta": {
+      "kind": "plain"
+    }
+  },
+  {
+    "id": "G-0167",
+    "label": 1,
+    "context": "Direct message \u00b7 synthetic",
+    "source": {
+      "label": "Platform filter",
+      "platform": "Discord"
+    },
+    "msgs": [
+      [
+        "u_x",
+        "hey nice playing with you"
+      ],
+      [
+        "u_y",
+        "i'm 12"
+      ],
+      [
+        "u_x",
+        "text me, here's my number"
+      ],
+      [
+        "u_x",
+        "i can send you a gift card"
+      ],
+      [
+        "u_x",
+        "you seem young, what year were you born?"
+      ],
+      [
+        "u_x",
+        "you're special, you know that?"
+      ]
+    ],
+    "meta": {
+      "tactics": [
+        "off_platform",
+        "gift",
+        "age_probe",
+        "flattery"
+      ],
+      "subtle": false
+    }
+  },
+  {
+    "id": "G-0037",
+    "label": 1,
+    "context": "Direct message \u00b7 synthetic",
+    "source": {
+      "label": "Tipline report",
+      "platform": "Instagram"
+    },
+    "msgs": [
+      [
+        "u_x",
+        "hey nice playing with you"
+      ],
+      [
+        "u_y",
+        "hey"
+      ],
+      [
+        "u_x",
+        "people wouldn't understand our friendship"
+      ],
+      [
+        "u_y",
+        "what are you up to"
+      ],
+      [
+        "u_x",
+        "let me treat you to something"
+      ],
+      [
+        "u_y",
+        "gg that was close"
+      ],
+      [
+        "u_x",
+        "let's move this to whatsapp"
+      ]
+    ],
+    "meta": {
+      "tactics": [
+        "secrecy",
+        "gift",
+        "off_platform"
+      ],
+      "subtle": false
+    }
+  },
+  {
+    "id": "S-0029",
+    "label": 0,
+    "context": "Friends DM \u00b7 synthetic",
+    "source": {
+      "label": "Tipline report",
+      "platform": "Fandom forum"
+    },
+    "msgs": [
+      [
+        "u_a",
+        "this group chat is chaos lol"
+      ],
+      [
+        "u_b",
+        "fr add me on discord instead"
+      ],
+      [
+        "u_a",
+        "done"
+      ]
+    ],
+    "meta": {
+      "kind": "borderline"
+    }
+  },
+  {
+    "id": "G-0074",
+    "label": 1,
+    "context": "Direct message \u00b7 synthetic",
+    "source": {
+      "label": "User report",
+      "platform": "In-game lobby"
+    },
+    "msgs": [
+      [
+        "u_x",
+        "hey nice playing with you"
+      ],
+      [
+        "u_y",
+        "im 14"
+      ],
+      [
+        "u_x",
+        "hmu somewhere else"
+      ]
+    ],
+    "meta": {
+      "tactics": [
+        "off_platform"
+      ],
+      "subtle": true
+    }
+  },
+  {
+    "id": "G-0174",
+    "label": 1,
+    "context": "Direct message \u00b7 synthetic",
+    "source": {
+      "label": "Moderator escalation",
+      "platform": "Snapchat"
+    },
+    "msgs": [
+      [
+        "u_x",
+        "hey nice playing with you"
+      ],
+      [
+        "u_y",
+        "im 13"
+      ],
+      [
+        "u_x",
+        "maybe don't bring this up to your folks"
+      ],
+      [
+        "u_y",
+        "what are you up to"
+      ],
+      [
+        "u_x",
+        "you still in school?"
+      ],
+      [
+        "u_y",
+        "that's wild"
+      ],
+      [
+        "u_x",
+        "i can send you a gift card"
+      ],
+      [
+        "u_x",
+        "what's your snapchat?"
+      ],
+      [
+        "u_y",
+        "did you see the update"
+      ]
+    ],
+    "meta": {
+      "tactics": [
+        "secrecy",
+        "age_probe",
+        "gift",
+        "off_platform"
+      ],
+      "subtle": false
+    }
+  },
+  {
+    "id": "S-0166",
+    "label": 0,
+    "context": "Trading channel \u00b7 synthetic",
+    "source": {
+      "label": "Tipline report",
+      "platform": "Fandom forum"
+    },
+    "msgs": [
+      [
+        "u_a",
+        "trading a blue dragon anyone interested"
+      ],
+      [
+        "u_b",
+        "i'll give you two epics"
+      ],
+      [
+        "u_a",
+        "deal sending now"
+      ],
+      [
+        "u_b",
+        "ty pleasure"
+      ]
+    ],
+    "meta": {
+      "kind": "plain"
+    }
+  },
+  {
+    "id": "G-0062",
+    "label": 1,
+    "context": "Direct message \u00b7 synthetic",
+    "source": {
+      "label": "Moderator escalation",
+      "platform": "Trading server"
+    },
+    "msgs": [
+      [
+        "u_x",
+        "hey nice playing with you"
+      ],
+      [
+        "u_y",
+        "turning 14 soon"
+      ],
+      [
+        "u_x",
+        "you're not like other people your age"
+      ],
+      [
+        "u_y",
+        "yeah for real"
+      ]
+    ],
+    "meta": {
+      "tactics": [
+        "flattery"
+      ],
+      "subtle": true
+    }
+  },
+  {
+    "id": "S-0124",
+    "label": 0,
+    "context": "Class group chat \u00b7 synthetic",
+    "source": {
+      "label": "Tipline report",
+      "platform": "Roblox"
+    },
+    "msgs": [
+      [
+        "u_a",
+        "who's coming to the birthday thing saturday"
+      ],
+      [
+        "u_b",
+        "me what time"
+      ],
+      [
+        "u_a",
+        "2pm at the park bring snacks"
+      ]
+    ],
+    "meta": {
+      "kind": "plain"
+    }
+  },
+  {
+    "id": "G-0139",
+    "label": 1,
+    "context": "Direct message \u00b7 synthetic",
+    "source": {
+      "label": "User report",
+      "platform": "Fandom forum"
+    },
+    "msgs": [
+      [
+        "u_x",
+        "hey nice playing with you"
+      ],
+      [
+        "u_y",
+        "turning 14 soon"
+      ],
+      [
+        "u_x",
+        "add me on telegram"
+      ],
+      [
+        "u_y",
+        "that's wild"
+      ],
+      [
+        "u_x",
+        "i can send you a gift card"
+      ],
+      [
+        "u_x",
+        "how old are you?"
+      ],
+      [
+        "u_y",
+        "same honestly"
+      ],
+      [
+        "u_x",
+        "delete these messages after"
+      ],
+      [
+        "u_y",
+        "what are you up to"
+      ]
+    ],
+    "meta": {
+      "tactics": [
+        "off_platform",
+        "gift",
+        "age_probe",
+        "secrecy"
+      ],
+      "subtle": false
+    }
+  },
+  {
+    "id": "S-0145",
+    "label": 0,
+    "context": "Study help DM \u00b7 synthetic",
+    "source": {
+      "label": "User report",
+      "platform": "Fandom forum"
+    },
+    "msgs": [
+      [
+        "u_a",
+        "thanks for the notes, you saved me"
+      ],
+      [
+        "u_b",
+        "no worries"
+      ],
+      [
+        "u_a",
+        "i'll buy you a coffee to say thanks"
+      ]
+    ],
+    "meta": {
+      "kind": "borderline"
+    }
+  },
+  {
+    "id": "G-0056",
+    "label": 1,
+    "context": "Direct message \u00b7 synthetic",
+    "source": {
+      "label": "Platform filter",
+      "platform": "Discord"
+    },
+    "msgs": [
+      [
+        "u_x",
+        "hey nice playing with you"
+      ],
+      [
+        "u_y",
+        "im 15 lol"
+      ],
+      [
+        "u_x",
+        "delete these messages after"
+      ],
+      [
+        "u_y",
+        "same honestly"
+      ],
+      [
+        "u_x",
+        "is there somewhere quieter we can chat?"
+      ],
+      [
+        "u_x",
+        "honestly you get me like no one else"
+      ],
+      [
+        "u_y",
+        "nice one"
+      ]
+    ],
+    "meta": {
+      "tactics": [
+        "secrecy",
+        "off_platform",
+        "flattery"
+      ],
+      "subtle": false
+    }
+  },
+  {
+    "id": "G-0069",
+    "label": 1,
+    "context": "Direct message \u00b7 synthetic",
+    "source": {
+      "label": "User report",
+      "platform": "Discord"
+    },
+    "msgs": [
+      [
+        "u_x",
+        "hey nice playing with you"
+      ],
+      [
+        "u_y",
+        "i'm 12"
+      ],
+      [
+        "u_x",
+        "i feel like we really click"
+      ],
+      [
+        "u_y",
+        "anyway how's it going"
+      ]
+    ],
+    "meta": {
+      "tactics": [
+        "flattery"
+      ],
+      "subtle": true
+    }
+  },
+  {
+    "id": "S-0116",
+    "label": 0,
+    "context": "Study help DM \u00b7 synthetic",
+    "source": {
+      "label": "Moderator escalation",
+      "platform": "Trading server"
+    },
+    "msgs": [
+      [
+        "u_a",
+        "thanks for the notes, you saved me"
+      ],
+      [
+        "u_b",
+        "no worries"
+      ],
+      [
+        "u_a",
+        "i'll buy you a coffee to say thanks"
+      ]
+    ],
+    "meta": {
+      "kind": "borderline"
+    }
+  },
+  {
+    "id": "G-0065",
+    "label": 1,
+    "context": "Direct message \u00b7 synthetic",
+    "source": {
+      "label": "Tipline report",
+      "platform": "Snapchat"
+    },
+    "msgs": [
+      [
+        "u_x",
+        "hey nice playing with you"
+      ],
+      [
+        "u_y",
+        "hey"
+      ],
+      [
+        "u_x",
+        "how old r u"
+      ],
+      [
+        "u_x",
+        "i could hook you up no biggie"
+      ],
+      [
+        "u_x",
+        "you're so talented for your age"
+      ],
+      [
+        "u_y",
+        "haha ok"
+      ]
+    ],
+    "meta": {
+      "tactics": [
+        "age_probe",
+        "gift",
+        "flattery"
+      ],
+      "subtle": false
+    }
+  },
+  {
+    "id": "G-0059",
+    "label": 1,
+    "context": "Direct message \u00b7 synthetic",
+    "source": {
+      "label": "User report",
+      "platform": "Trading server"
+    },
+    "msgs": [
+      [
+        "u_x",
+        "hey nice playing with you"
+      ],
+      [
+        "u_y",
+        "hey"
+      ],
+      [
+        "u_x",
+        "you're special, you know that?"
+      ],
+      [
+        "u_y",
+        "same honestly"
+      ],
+      [
+        "u_x",
+        "i could hook you up no biggie"
+      ],
+      [
+        "u_y",
+        "that's wild"
+      ],
+      [
+        "u_x",
+        "how old are you?"
+      ],
+      [
+        "u_y",
+        "gg that was close"
+      ],
+      [
+        "u_x",
+        "you got discord or smth"
+      ],
+      [
+        "u_y",
+        "that's wild"
+      ]
+    ],
+    "meta": {
+      "tactics": [
+        "flattery",
+        "gift",
+        "age_probe",
+        "off_platform"
+      ],
+      "subtle": false
+    }
+  },
+  {
+    "id": "G-0145",
+    "label": 1,
+    "context": "Direct message \u00b7 synthetic",
+    "source": {
+      "label": "User report",
+      "platform": "Instagram"
+    },
+    "msgs": [
+      [
+        "u_x",
+        "hey nice playing with you"
+      ],
+      [
+        "u_y",
+        "hey"
+      ],
+      [
+        "u_x",
+        "honestly you get me like no one else"
+      ],
+      [
+        "u_y",
+        "what are you up to"
+      ],
+      [
+        "u_x",
+        "text me, here's my number"
+      ],
+      [
+        "u_y",
+        "what are you up to"
+      ],
+      [
+        "u_x",
+        "i'll buy you some robux"
+      ],
+      [
+        "u_x",
+        "what grade are you in?"
+      ],
+      [
+        "u_y",
+        "gg that was close"
+      ]
+    ],
+    "meta": {
+      "tactics": [
+        "flattery",
+        "off_platform",
+        "gift",
+        "age_probe"
+      ],
+      "subtle": false
+    }
+  },
+  {
+    "id": "S-0196",
+    "label": 0,
+    "context": "Sports club chat \u00b7 synthetic",
+    "source": {
+      "label": "User report",
+      "platform": "Instagram"
+    },
+    "msgs": [
+      [
+        "u_coach",
+        "great work today, you're improving fast"
+      ],
+      [
+        "u_player",
+        "thanks coach!"
+      ],
+      [
+        "u_coach",
+        "let's keep our extra sessions between us so the others don't feel left out"
+      ],
+      [
+        "u_player",
+        "sounds good"
+      ]
+    ],
+    "meta": {
+      "kind": "borderline"
+    }
+  },
+  {
+    "id": "G-0177",
+    "label": 1,
+    "context": "Direct message \u00b7 synthetic",
+    "source": {
+      "label": "Platform filter",
+      "platform": "Fandom forum"
+    },
+    "msgs": [
+      [
+        "u_x",
+        "hey nice playing with you"
+      ],
+      [
+        "u_y",
+        "in 7th grade"
+      ],
+      [
+        "u_x",
+        "so what's your age range?"
+      ]
+    ],
+    "meta": {
+      "tactics": [
+        "age_probe"
+      ],
+      "subtle": true
+    }
+  },
+  {
+    "id": "S-0170",
+    "label": 0,
+    "context": "Art commissions DM \u00b7 synthetic",
+    "source": {
+      "label": "Platform filter",
+      "platform": "Roblox"
+    },
+    "msgs": [
+      [
+        "u_a",
+        "do you take commissions"
+      ],
+      [
+        "u_b",
+        "yep i can send a rate sheet"
+      ],
+      [
+        "u_a",
+        "perfect email it over"
+      ]
+    ],
+    "meta": {
+      "kind": "plain"
+    }
+  },
+  {
+    "id": "S-0093",
+    "label": 0,
+    "context": "Game help channel \u00b7 synthetic",
+    "source": {
+      "label": "Platform filter",
+      "platform": "In-game lobby"
+    },
+    "msgs": [
+      [
+        "u_a",
+        "anyone got tips for the water temple boss"
+      ],
+      [
+        "u_b",
+        "use ice arrows on the eyes then hit the core"
+      ],
+      [
+        "u_a",
+        "omg ty stuck for an hour"
+      ],
+      [
+        "u_b",
+        "np gl"
+      ]
+    ],
+    "meta": {
+      "kind": "plain"
+    }
+  },
+  {
+    "id": "G-0021",
+    "label": 1,
+    "context": "Direct message \u00b7 synthetic",
+    "source": {
+      "label": "Moderator escalation",
+      "platform": "Discord"
+    },
+    "msgs": [
+      [
+        "u_x",
+        "hey nice playing with you"
+      ],
+      [
+        "u_y",
+        "im 15 lol"
+      ],
+      [
+        "u_x",
+        "let me treat you to something"
+      ],
+      [
+        "u_y",
+        "gg that was close"
+      ]
+    ],
+    "meta": {
+      "tactics": [
+        "gift"
+      ],
+      "subtle": true
+    }
+  },
+  {
+    "id": "S-0104",
+    "label": 0,
+    "context": "Study group chat \u00b7 synthetic",
+    "source": {
+      "label": "Platform filter",
+      "platform": "In-game lobby"
+    },
+    "msgs": [
+      [
+        "u_a",
+        "did anyone finish q7 on the bio worksheet"
+      ],
+      [
+        "u_b",
+        "it's mitochondria, same diagram from class"
+      ],
+      [
+        "u_a",
+        "ohh thanks you saved me"
+      ]
+    ],
+    "meta": {
+      "kind": "plain"
+    }
+  },
+  {
+    "id": "S-0165",
+    "label": 0,
+    "context": "Mentor DM \u00b7 synthetic",
+    "source": {
+      "label": "Platform filter",
+      "platform": "Trading server"
+    },
+    "msgs": [
+      [
+        "u_mentor",
+        "you can talk to me about anything on the project, ok?"
+      ],
+      [
+        "u_student",
+        "appreciate it, thanks"
+      ]
+    ],
+    "meta": {
+      "kind": "borderline"
+    }
+  },
+  {
+    "id": "G-0053",
+    "label": 1,
+    "context": "Direct message \u00b7 synthetic",
+    "source": {
+      "label": "Automated scan",
+      "platform": "Trading server"
+    },
+    "msgs": [
+      [
+        "u_x",
+        "hey nice playing with you"
+      ],
+      [
+        "u_y",
+        "hey"
+      ],
+      [
+        "u_x",
+        "how old are you?"
+      ],
+      [
+        "u_y",
+        "gg that was close"
+      ],
+      [
+        "u_x",
+        "want some free v-bucks?"
+      ],
+      [
+        "u_y",
+        "nice one"
+      ],
+      [
+        "u_x",
+        "you can tell me anything"
+      ],
+      [
+        "u_y",
+        "nice one"
+      ]
+    ],
+    "meta": {
+      "tactics": [
+        "age_probe",
+        "gift",
+        "flattery"
+      ],
+      "subtle": false
+    }
+  },
+  {
+    "id": "G-0058",
+    "label": 1,
+    "context": "Direct message \u00b7 synthetic",
+    "source": {
+      "label": "Tipline report",
+      "platform": "Instagram"
+    },
+    "msgs": [
+      [
+        "u_x",
+        "hey nice playing with you"
+      ],
+      [
+        "u_y",
+        "hey"
+      ],
+      [
+        "u_x",
+        "don't tell anyone we talk"
+      ],
+      [
+        "u_y",
+        "lol nice"
+      ],
+      [
+        "u_x",
+        "what grade are you in?"
+      ]
+    ],
+    "meta": {
+      "tactics": [
+        "secrecy",
+        "age_probe"
+      ],
+      "subtle": false
+    }
+  },
+  {
+    "id": "S-0012",
+    "label": 0,
+    "context": "Study help DM \u00b7 synthetic",
+    "source": {
+      "label": "User report",
+      "platform": "Discord"
+    },
+    "msgs": [
+      [
+        "u_a",
+        "thanks for the notes, you saved me"
+      ],
+      [
+        "u_b",
+        "no worries"
+      ],
+      [
+        "u_a",
+        "i'll buy you a coffee to say thanks"
+      ]
+    ],
+    "meta": {
+      "kind": "borderline"
+    }
+  },
+  {
+    "id": "S-0096",
+    "label": 0,
+    "context": "Friends DM \u00b7 synthetic",
+    "source": {
+      "label": "Tipline report",
+      "platform": "Fandom forum"
+    },
+    "msgs": [
+      [
+        "u_a",
+        "buy you a coffee sometime as thanks"
+      ],
+      [
+        "u_a",
+        "you watching the new episode tonight"
+      ],
+      [
+        "u_b",
+        "yeah after dinner no spoilers"
+      ],
+      [
+        "u_a",
+        "lol ok i'll wait for you"
+      ]
+    ],
+    "meta": {
+      "kind": "plain"
+    }
+  },
+  {
+    "id": "S-0179",
+    "label": 0,
+    "context": "Class group chat \u00b7 synthetic",
+    "source": {
+      "label": "Automated scan",
+      "platform": "In-game lobby"
+    },
+    "msgs": [
+      [
+        "u_a",
+        "who's coming to the birthday thing saturday"
+      ],
+      [
+        "u_b",
+        "me what time"
+      ],
+      [
+        "u_a",
+        "2pm at the park bring snacks"
+      ]
+    ],
+    "meta": {
+      "kind": "plain"
+    }
+  },
+  {
+    "id": "G-0133",
+    "label": 1,
+    "context": "Direct message \u00b7 synthetic",
+    "source": {
+      "label": "User report",
+      "platform": "In-game lobby"
+    },
+    "msgs": [
+      [
+        "u_x",
+        "hey nice playing with you"
+      ],
+      [
+        "u_y",
+        "in 7th grade"
+      ],
+      [
+        "u_x",
+        "i can send you a gift card"
+      ],
+      [
+        "u_y",
+        "ok cool"
+      ],
+      [
+        "u_x",
+        "you're not like other people your age"
+      ],
+      [
+        "u_x",
+        "let's keep this between us"
+      ],
+      [
+        "u_x",
+        "what's your snapchat?"
+      ],
+      [
+        "u_x",
+        "you still in school?"
+      ]
+    ],
+    "meta": {
+      "tactics": [
+        "gift",
+        "flattery",
+        "secrecy",
+        "off_platform",
+        "age_probe"
+      ],
+      "subtle": false
+    }
+  },
+  {
+    "id": "S-0053",
+    "label": 0,
+    "context": "Class group chat \u00b7 synthetic",
+    "source": {
+      "label": "Tipline report",
+      "platform": "Roblox"
+    },
+    "msgs": [
+      [
+        "u_a",
+        "who's coming to the birthday thing saturday"
+      ],
+      [
+        "u_a",
+        "gg add me on discord for next time"
+      ],
+      [
+        "u_b",
+        "me what time"
+      ],
+      [
+        "u_a",
+        "2pm at the park bring snacks"
+      ]
+    ],
+    "meta": {
+      "kind": "plain"
+    }
+  },
+  {
+    "id": "S-0067",
+    "label": 0,
+    "context": "Trading channel \u00b7 synthetic",
+    "source": {
+      "label": "Moderator escalation",
+      "platform": "Trading server"
+    },
+    "msgs": [
+      [
+        "u_a",
+        "trading a blue dragon anyone interested"
+      ],
+      [
+        "u_b",
+        "i'll give you two epics"
+      ],
+      [
+        "u_a",
+        "gg add me on discord for next time"
+      ],
+      [
+        "u_a",
+        "deal sending now"
+      ],
+      [
+        "u_b",
+        "ty pleasure"
+      ]
+    ],
+    "meta": {
+      "kind": "plain"
+    }
+  },
+  {
+    "id": "S-0084",
+    "label": 0,
+    "context": "Class group chat \u00b7 synthetic",
+    "source": {
+      "label": "Automated scan",
+      "platform": "Roblox"
+    },
+    "msgs": [
+      [
+        "u_a",
+        "who's coming to the birthday thing saturday"
+      ],
+      [
+        "u_b",
+        "me what time"
+      ],
+      [
+        "u_a",
+        "2pm at the park bring snacks"
+      ]
+    ],
+    "meta": {
+      "kind": "plain"
+    }
+  },
+  {
+    "id": "S-0033",
+    "label": 0,
+    "context": "Family group chat \u00b7 synthetic",
+    "source": {
+      "label": "Platform filter",
+      "platform": "Trading server"
+    },
+    "msgs": [
+      [
+        "u_aunt",
+        "you're so mature for your age, your mum must be proud"
+      ],
+      [
+        "u_teen",
+        "haha thanks auntie"
+      ]
+    ],
+    "meta": {
+      "kind": "borderline"
+    }
+  },
+  {
+    "id": "G-0090",
+    "label": 1,
+    "context": "Direct message \u00b7 synthetic",
+    "source": {
+      "label": "Platform filter",
+      "platform": "Instagram"
+    },
+    "msgs": [
+      [
+        "u_x",
+        "hey nice playing with you"
+      ],
+      [
+        "u_y",
+        "im 15 lol"
+      ],
+      [
+        "u_x",
+        "how old are you?"
+      ],
+      [
+        "u_y",
+        "haha ok"
+      ],
+      [
+        "u_x",
+        "want some free v-bucks?"
+      ],
+      [
+        "u_x",
+        "you can tell me anything"
+      ],
+      [
+        "u_x",
+        "let's keep this between us"
+      ],
+      [
+        "u_y",
+        "ok cool"
+      ]
+    ],
+    "meta": {
+      "tactics": [
+        "age_probe",
+        "gift",
+        "flattery",
+        "secrecy"
+      ],
+      "subtle": false
+    }
+  },
+  {
+    "id": "G-0089",
+    "label": 1,
+    "context": "Direct message \u00b7 synthetic",
+    "source": {
+      "label": "User report",
+      "platform": "Fandom forum"
+    },
+    "msgs": [
+      [
+        "u_x",
+        "hey nice playing with you"
+      ],
+      [
+        "u_y",
+        "i'm 12"
+      ],
+      [
+        "u_x",
+        "you're so talented for your age"
+      ],
+      [
+        "u_y",
+        "same honestly"
+      ],
+      [
+        "u_x",
+        "delete these messages after"
+      ],
+      [
+        "u_x",
+        "i'll buy you some robux"
+      ]
+    ],
+    "meta": {
+      "tactics": [
+        "flattery",
+        "secrecy",
+        "gift"
+      ],
+      "subtle": false
+    }
+  },
+  {
+    "id": "S-0051",
+    "label": 0,
+    "context": "Class group chat \u00b7 synthetic",
+    "source": {
+      "label": "Platform filter",
+      "platform": "Discord"
+    },
+    "msgs": [
+      [
+        "u_a",
+        "who's coming to the birthday thing saturday"
+      ],
+      [
+        "u_b",
+        "me what time"
+      ],
+      [
+        "u_a",
+        "2pm at the park bring snacks"
+      ]
+    ],
+    "meta": {
+      "kind": "plain"
+    }
+  },
+  {
+    "id": "S-0007",
+    "label": 0,
+    "context": "Class group chat \u00b7 synthetic",
+    "source": {
+      "label": "Tipline report",
+      "platform": "Roblox"
+    },
+    "msgs": [
+      [
+        "u_a",
+        "who's coming to the birthday thing saturday"
+      ],
+      [
+        "u_b",
+        "me what time"
+      ],
+      [
+        "u_a",
+        "2pm at the park bring snacks"
+      ]
+    ],
+    "meta": {
+      "kind": "plain"
+    }
+  },
+  {
+    "id": "S-0204",
+    "label": 0,
+    "context": "Study group chat \u00b7 synthetic",
+    "source": {
+      "label": "Automated scan",
+      "platform": "Fandom forum"
+    },
+    "msgs": [
+      [
+        "u_a",
+        "did anyone finish q7 on the bio worksheet"
+      ],
+      [
+        "u_b",
+        "it's mitochondria, same diagram from class"
+      ],
+      [
+        "u_a",
+        "ohh thanks you saved me"
+      ]
+    ],
+    "meta": {
+      "kind": "plain"
+    }
+  },
+  {
+    "id": "G-0006",
+    "label": 1,
+    "context": "Direct message \u00b7 synthetic",
+    "source": {
+      "label": "Automated scan",
+      "platform": "Discord"
+    },
+    "msgs": [
+      [
+        "u_x",
+        "hey nice playing with you"
+      ],
+      [
+        "u_y",
+        "im 15 lol"
+      ],
+      [
+        "u_x",
+        "so what's your age range?"
+      ]
+    ],
+    "meta": {
+      "tactics": [
+        "age_probe"
+      ],
+      "subtle": true
+    }
+  },
+  {
+    "id": "G-0009",
+    "label": 1,
+    "context": "Direct message \u00b7 synthetic",
+    "source": {
+      "label": "Automated scan",
+      "platform": "Snapchat"
+    },
+    "msgs": [
+      [
+        "u_x",
+        "hey nice playing with you"
+      ],
+      [
+        "u_y",
+        "im 15 lol"
+      ],
+      [
+        "u_x",
+        "how old are you?"
+      ],
+      [
+        "u_x",
+        "you're special, you know that?"
+      ]
+    ],
+    "meta": {
+      "tactics": [
+        "age_probe",
+        "flattery"
+      ],
+      "subtle": false
+    }
+  },
+  {
+    "id": "S-0141",
+    "label": 0,
+    "context": "Class group chat \u00b7 synthetic",
+    "source": {
+      "label": "Tipline report",
+      "platform": "Snapchat"
+    },
+    "msgs": [
+      [
+        "u_a",
+        "who's coming to the birthday thing saturday"
+      ],
+      [
+        "u_b",
+        "me what time"
+      ],
+      [
+        "u_a",
+        "2pm at the park bring snacks"
+      ],
+      [
+        "u_a",
+        "buy you a coffee sometime as thanks"
+      ]
+    ],
+    "meta": {
+      "kind": "plain"
+    }
+  },
+  {
+    "id": "S-0022",
+    "label": 0,
+    "context": "Family group chat \u00b7 synthetic",
+    "source": {
+      "label": "Moderator escalation",
+      "platform": "Fandom forum"
+    },
+    "msgs": [
+      [
+        "u_aunt",
+        "you're so mature for your age, your mum must be proud"
+      ],
+      [
+        "u_teen",
+        "haha thanks auntie"
+      ]
+    ],
+    "meta": {
+      "kind": "borderline"
+    }
+  },
+  {
+    "id": "S-0034",
+    "label": 0,
+    "context": "Game help channel \u00b7 synthetic",
+    "source": {
+      "label": "Automated scan",
+      "platform": "In-game lobby"
+    },
+    "msgs": [
+      [
+        "u_a",
+        "anyone got tips for the water temple boss"
+      ],
+      [
+        "u_b",
+        "use ice arrows on the eyes then hit the core"
+      ],
+      [
+        "u_a",
+        "i can send you the notes"
+      ],
+      [
+        "u_a",
+        "omg ty stuck for an hour"
+      ],
+      [
+        "u_b",
+        "np gl"
+      ]
+    ],
+    "meta": {
+      "kind": "plain"
+    }
+  },
+  {
+    "id": "G-0104",
+    "label": 1,
+    "context": "Direct message \u00b7 synthetic",
+    "source": {
+      "label": "User report",
+      "platform": "Roblox"
+    },
+    "msgs": [
+      [
+        "u_x",
+        "hey nice playing with you"
+      ],
+      [
+        "u_y",
+        "hey"
+      ],
+      [
+        "u_x",
+        "i'll buy you some robux"
+      ],
+      [
+        "u_x",
+        "how old are you?"
+      ],
+      [
+        "u_y",
+        "haha ok"
+      ]
+    ],
+    "meta": {
+      "tactics": [
+        "gift",
+        "age_probe"
+      ],
+      "subtle": false
+    }
+  },
+  {
+    "id": "S-0148",
+    "label": 0,
+    "context": "Mentor DM \u00b7 synthetic",
+    "source": {
+      "label": "Automated scan",
+      "platform": "Snapchat"
+    },
+    "msgs": [
+      [
+        "u_mentor",
+        "you can talk to me about anything on the project, ok?"
+      ],
+      [
+        "u_student",
+        "appreciate it, thanks"
+      ]
+    ],
+    "meta": {
+      "kind": "borderline"
+    }
+  },
+  {
+    "id": "G-0060",
+    "label": 1,
+    "context": "Direct message \u00b7 synthetic",
+    "source": {
+      "label": "User report",
+      "platform": "Fandom forum"
+    },
+    "msgs": [
+      [
+        "u_x",
+        "hey nice playing with you"
+      ],
+      [
+        "u_y",
+        "hey"
+      ],
+      [
+        "u_x",
+        "how old r u"
+      ],
+      [
+        "u_y",
+        "anyway how's it going"
+      ],
+      [
+        "u_x",
+        "delete these messages after"
+      ],
+      [
+        "u_y",
+        "lol nice"
+      ],
+      [
+        "u_x",
+        "add me on telegram"
+      ]
+    ],
+    "meta": {
+      "tactics": [
+        "age_probe",
+        "secrecy",
+        "off_platform"
+      ],
+      "subtle": false
+    }
+  }
+]

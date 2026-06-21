@@ -1,67 +1,64 @@
 """
-Train + evaluate the hybrid model.
+train.py — trains the model on SEMANTIC features.
 
-The model: logistic regression over the five rule-signal features. It learns
-how much each signal should count, replacing the console's hand-set weights
-with weights fit to data — while staying fully interpretable, because every
-feature is a named signal you can read straight off the coefficients.
+Each conversation becomes five cosine-similarity scores (one per signal) from
+semantic_detectors. A logistic-regression model learns how much each signal
+should count. Exports weights.json for the backend to serve.
 
-Outputs:
-  - console metrics: precision / recall / F1 / confusion matrix on a held-out set
-  - weights.json: learned coefficients + intercept + band cutoffs, for the console
+Run:  python train.py
+(Embedding 400 conversations takes a little time on first run — be patient.)
 """
 import json
-import math
 import numpy as np
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report, confusion_matrix, roc_auc_score
 
-from detectors import SIGNALS, features
+from semantic_detectors import SIGNALS, features
 
 with open("dataset.json") as f:
     data = json.load(f)
 
-X = np.array([features(d["msgs"]) for d in data])
+print(f"Embedding {len(data)} conversations into semantic features…")
+X = np.array([features(d["msgs"]) for d in data])   # similarity vectors
 y = np.array([d["label"] for d in data])
 
-X_tr, X_te, y_tr, y_te = train_test_split(X, y, test_size=0.25, stratify=y, random_state=7)
+idx = np.arange(len(data))
+tr, te = train_test_split(idx, test_size=0.25, stratify=y, random_state=7)
+clf = LogisticRegression().fit(X[tr], y[tr])
 
-clf = LogisticRegression()
-clf.fit(X_tr, y_tr)
-
-proba = clf.predict_proba(X_te)[:, 1]
+proba = clf.predict_proba(X[te])[:, 1]
 pred = (proba >= 0.5).astype(int)
+y_te = y[te]
 
+print("\n" + "=" * 60)
+print("LEARNED WEIGHTS  (over semantic similarity features)")
 print("=" * 60)
-print("LEARNED WEIGHTS  (hand-set value in the console, for comparison)")
-print("=" * 60)
-hand = {"off_platform": 22, "secrecy": 26, "age_probe": 16, "flattery": 16, "gift": 20}
 for sig, w in sorted(zip(SIGNALS, clf.coef_[0]), key=lambda kv: -kv[1]):
-    print(f"  {sig:<14} learned {w:+.2f}     (console: {hand[sig]})")
+    print(f"  {sig:<14} {w:+.2f}")
 print(f"  {'(intercept)':<14} {clf.intercept_[0]:+.2f}")
 
 print("\n" + "=" * 60)
-print("EVALUATION  (held-out test set it never trained on)")
+print("EVALUATION  (held-out test set)")
 print("=" * 60)
 print(classification_report(y_te, pred, target_names=["safe", "grooming"], digits=3))
 tn, fp, fn, tp = confusion_matrix(y_te, pred).ravel()
-print("Confusion matrix:")
-print(f"                 predicted safe   predicted grooming")
-print(f"  actual safe          {tn:3d}                {fp:3d}        <- {fp} false positives")
-print(f"  actual grooming      {fn:3d}                {tp:3d}        <- {fn} false negatives (missed)")
-print(f"\n  ROC-AUC: {roc_auc_score(y_te, proba):.3f}")
-
-# Band cutoffs on the predicted probability. 'review' is deliberately wide so
-# uncertain cases route to a human instead of being cleared or auto-flagged.
-BANDS = {"review": 0.35, "high": 0.70}
+print(f"Confusion: TN={tn} FP={fp} FN={fn} TP={tp}")
+print(f"ROC-AUC: {roc_auc_score(y_te, proba):.3f}")
 
 weights = {
-    "intercept": clf.intercept_[0],
-    "weights": dict(zip(SIGNALS, clf.coef_[0].tolist())),
-    "bands": BANDS,
-    "note": "console computes p = sigmoid(intercept + sum(w_i * signal_i)); maps p to band",
+    "intercept": float(clf.intercept_[0]),
+    "weights": {s: float(w) for s, w in zip(SIGNALS, clf.coef_[0])},
+    "bands": {"review": 0.30, "high": 0.70},
+    "note": "weights over SEMANTIC similarity features; score=sigmoid(intercept+sum(w*sim))",
 }
 with open("weights.json", "w") as f:
     json.dump(weights, f, indent=2)
-print("\nwrote weights.json — drop these learned weights into the console")
+print("\nwrote weights.json — restart the backend to serve these.")
+
+# The console serves ONLY these held-out cases — conversations the model never
+# trained on — so the demo shows the model on genuinely unseen data.
+test_cases = [data[i] for i in te]
+with open("test_set.json", "w") as f:
+    json.dump(test_cases, f, indent=2)
+print(f"wrote test_set.json — {len(test_cases)} held-out cases for the console.")
